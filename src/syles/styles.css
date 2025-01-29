@@ -1,0 +1,29 @@
+@import url(./sidebar-footer.css);
+@import url(./main-content.css);
+@import url(./playlist.css);
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* CORES */
+    --cor-preto: #000;
+    --cor-cinza-escuro: #121212;
+    --cor-cinza-medio: #242424;
+    --cor-cinza-claro: #b3b3b3;
+    --cor-cinza-botao: #a7a7a7;
+    --cor-branco: #fff;
+    --cor-bg-icon: #131313;
+    --cor-arrow: rgba(0,0,07);
+
+    /* FONTES */
+    --fonte-principal: 'DM Sans', sans-serif;
+    --fonte-botoes: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: var(--cor-preto);
+    font-family: var(--fonte-principal);
+    box-sizing: border-box;
+}

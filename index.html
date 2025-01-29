@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="./src/syles/reset.css">
+    <link rel="stylesheet" href="./src/syles/styles.css">
+    
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/dfcebf96e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="#">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo Spotify">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="fa-solid fa-house"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa-solid fa-magnifying-glass"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="biblioteca">
+            <div class="biblioteca__content">
+                <button class="biblioteca__button">
+                    <span class="fa-solid fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa-solid fa-plus"></span>
+            </div>
+            <section class="section__playlist">
+                <div class="playlist__content">
+                    <span class="playlist__text playlist__title">Crie sua primeira playlist</span>
+                    <span class="playlist__text playlist__subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="#">Cookies</a>
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa-solid fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main class="main-container">
+        <nav class="header__navigation">
+            <div class="navigation">
+                <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                </button>
+                <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                </button>
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+            </div>
+            <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+            </div>
+        </nav>
+        <div class="playlist">
+            <div class="playlist__header">
+                <h1>Bom dia</h1>
+                <h2>Navegar por todas as seções</h2>
+
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__texto">
+            <p class="footer__texto--titulo">Testar o Premium de graça</p>
+            <p class="footer__texto--texto">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+        </div>
+        <div class="footer__botao">
+            <button class="botao-footer" type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>
+</body>
+</html>
